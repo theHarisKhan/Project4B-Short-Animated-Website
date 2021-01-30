@@ -1,0 +1,69 @@
+.Navbar {
+  width: 100%;
+  background: linear-gradient(to right, rgb(76, 6, 193), rgb(205, 2, 189));
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 25px #000;
+  z-index: 1;
+  position: fixed;
+}
+
+.charA {
+  color: #a800ff;
+}
+.charN {
+  color: #0079ff;
+}
+.charI {
+  color: #00f11d;
+}
+.charM {
+  color: #ffef00;
+}
+.charA {
+  color: #ff7f00;
+}
+.charT {
+  color: #ff0900;
+}
+.charI {
+  color: #a800ff;
+}
+.charO {
+  color: #0079ff;
+}
+.charN {
+  color: #00f11d;
+}
+.charS {
+  color: #ffef00;
+}
+
+.btn--container {
+  position: absolute;
+  width: 90vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuBtn {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border: thin solid rgba(255, 255, 255, 0.5);
+  padding: 0.4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.menuBtn:hover {
+  background: rgba(255, 255, 255, 0.39);
+}

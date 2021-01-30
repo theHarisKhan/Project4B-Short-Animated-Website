@@ -1,0 +1,38 @@
+.blogs {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.blog--item {
+  transition: transform 0.2s linear;
+  box-shadow: 0 0 10px black;
+  width: fit-content;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.blog--item:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.blogBox {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.BlogImg {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 500px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.BlogBox--Title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}

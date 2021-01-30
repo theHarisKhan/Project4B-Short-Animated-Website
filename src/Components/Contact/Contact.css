@@ -1,0 +1,21 @@
+.Contact {
+  text-align: center;
+  padding: 1rem 1rem !important;
+}
+
+.Contact > h5 {
+  color: rgba(255, 253, 253, 0.74);
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.Contact > h5 span {
+  color: #fff;
+  font-style: italic;
+}
+
+.Contact--btn > h6 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+}

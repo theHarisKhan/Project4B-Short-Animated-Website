@@ -1,0 +1,32 @@
+.Footer {
+  text-align: center;
+}
+
+.footer--title {
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.footer--avatars {
+  margin: 50px auto 40px;
+}
+
+.AvatarImg {
+  margin: 10px;
+  width: 100px;
+  border: medium solid white;
+  border-radius: 50%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.msgBlock {
+  position: absolute;
+  right: 20px;
+}
+
+.msgIcon {
+  width: 60px;
+  z-index: 1;
+}

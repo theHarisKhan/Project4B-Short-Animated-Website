@@ -1,0 +1,40 @@
+.container {
+  background: linear-gradient(to right, #9703bd, #660798);
+  padding: 5rem 0 !important;
+}
+
+.flow--row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 3rem 0;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.block--img {
+  width: 1920px;
+}
+
+.block--img > img {
+  width: 100%;
+}
+
+.block--title {
+  color: white;
+  margin-left: 10px;
+}
+
+.block--title > h1 {
+  font-size: 3.6rem;
+  font-weight: 100;
+}
+
+.block--title > p {
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  width: 80%;
+}

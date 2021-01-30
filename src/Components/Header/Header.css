@@ -1,0 +1,92 @@
+.container {
+  background: linear-gradient(to right, rgb(76, 6, 193), rgb(205, 2, 189));
+  padding: 9rem 0;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 8fr 12fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.left--container {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: #ffffff;
+}
+
+.right--container {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-self: center;
+}
+
+.left--container > h1 {
+  letter-spacing: 4px;
+  font-size: 5rem;
+  margin-bottom: 0 !important;
+}
+
+.left--container > h2 {
+  letter-spacing: 4px;
+  font-size: 3.6rem;
+  font-weight: 100;
+  margin-top: -5px !important;
+  margin-bottom: 50px !important;
+}
+
+.left--container > h5 {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin-top: -15px !important;
+  margin-bottom: 50px !important;
+}
+
+.chatBtn {
+  padding: 20px 30px;
+  border-radius: 25px;
+  border: hidden;
+  color: white;
+  font-size: 1rem;
+  background: linear-gradient(to bottom, cyan, rgb(1, 116, 116));
+  cursor: pointer;
+}
+
+.chatBtn:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 255, 255, 0),
+    rgba(0, 134, 134, 0.8)
+  );
+}
+
+.featuredImg {
+  height: 100%;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  pointer-events: none;
+}
+
+.frontLayerImg {
+  height: 100%;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  pointer-events: none;
+}
+
+.introBrainImg {
+  height: 100%;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  pointer-events: none;
+}
